@@ -1,5 +1,4 @@
-package OOP.Inheritance;
-import java.util.Random;
+package OOP.Junior.Inheritance;
 
 // cltr + H查看继承关系
 public class Inheritance {

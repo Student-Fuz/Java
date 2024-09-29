@@ -1,4 +1,4 @@
-package OOP.Polymorphism.PolyArray;
+package OOP.Junior.Polymorphism.PolyArray;
 
 public class PolyArray {
     public static void main(String[] args){
@@ -14,10 +14,15 @@ public class PolyArray {
             System.out.println(personMountainPersonSea[i].say());
 
             if(personMountainPersonSea[i] instanceof Student){
-                ((Student) personMountainPersonSea[i]).study();
+                System.out.println(
+                        ((Student) personMountainPersonSea[i]).study()
+                );
+
             }
             else if(personMountainPersonSea[i] instanceof Teacher){
-                ((Teacher) personMountainPersonSea[i]).teach();
+                System.out.println(
+                        ((Teacher) personMountainPersonSea[i]).teach()
+                );
             }
             else if(personMountainPersonSea[i] instanceof Person){
                 continue;
@@ -35,7 +40,7 @@ class Person {
     public Person() {}
 
     public Person(String name) {
-        name = name;
+        this.name = name;
     }
     public String say(){
         return "name: " + name;
@@ -46,8 +51,8 @@ class Student extends Person{
     double score;
     public Student(String name, double score){
         super(name);
-        name = name;
-        score = score;
+        this.name = name;
+        this.score = score;
     }
 
     @Override
@@ -64,7 +69,7 @@ class Teacher extends Person{
     double salary;
     public Teacher(String name, double score){
         super(name);
-        name = name;
+        this.name = name;
         salary = salary;
     }
 

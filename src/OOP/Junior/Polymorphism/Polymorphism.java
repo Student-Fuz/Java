@@ -1,4 +1,4 @@
-package OOP.Polymorphism;
+package OOP.Junior.Polymorphism;
 
 public class Polymorphism {
     public static void main(String[] args){

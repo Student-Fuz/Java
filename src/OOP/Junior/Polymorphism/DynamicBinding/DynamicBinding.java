@@ -1,4 +1,4 @@
-package OOP.Polymorphism.DynamicBinding;
+package OOP.Junior.Polymorphism.DynamicBinding;
 
 public class DynamicBinding {
     public static void main(String[] args){
