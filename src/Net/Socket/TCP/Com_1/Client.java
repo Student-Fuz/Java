@@ -1,4 +1,4 @@
-package Net.Socket.Com_1;
+package Net.Socket.TCP.Com_1;
 
 // TCPFileCopyClient.java
 import java.io.OutputStream;
@@ -16,7 +16,8 @@ public class Client {
             // 并将字符串 "hello, server" 以字节形式发送到服务器端。
             // getBytes() 方法将字符串转换为字节数组，以便通过 OutputStream 发送。
             OutputStream outputStream = socket.getOutputStream();
-            outputStream.write("hello, server".getBytes());
+            //outputStream.write("hello, server".getBytes());
+            outputStream.write("你好， 服务器".getBytes());
             System.out.println("消息已发送");
 
             // 关闭连接

@@ -1,6 +1,5 @@
-package Net.Socket.Com_2;
+package Net.Socket.TCP.Com_2;
 
-// TCPFileCopyServer.java
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.ServerSocket;

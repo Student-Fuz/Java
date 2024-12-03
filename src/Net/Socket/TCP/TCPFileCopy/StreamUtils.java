@@ -1,4 +1,4 @@
-package Net.Socket.TCPFileCopy;
+package Net.Socket.TCP.TCPFileCopy;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

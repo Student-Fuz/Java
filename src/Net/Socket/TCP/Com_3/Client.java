@@ -1,4 +1,4 @@
-package Net.Socket.Com_3;
+package Net.Socket.TCP.Com_3;
 
 // TCPFileCopyClient.java
 import java.io.BufferedReader;
